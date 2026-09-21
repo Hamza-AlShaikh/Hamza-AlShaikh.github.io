@@ -55,10 +55,10 @@
 </head>
 <body class="bg-slate-950 text-slate-300 font-sans antialiased selection:bg-brand-500 selection:text-white min-h-screen relative overflow-x-hidden bg-grid">
 
-    <!-- خلفية مضيئة متدرجة (Glow Backdrop) -->
+    <!-- خلفية مضيئة متدرجة -->
     <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-brand-500/10 blur-[120px] rounded-full pointer-events-none -z-10"></div>
 
-    <!-- شريط التنقل العلوي الاحترافي (Global Navigation) -->
+    <!-- شريط التنقل العلوي -->
     <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
             <a href="#" class="flex items-center gap-3 group">
@@ -72,10 +72,11 @@
             </a>
 
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
-                <a href="#about" class="hover:text-white transition-colors">Overview</a>
-                <a href="#qualifications" class="hover:text-white transition-colors">Qualifications</a>
-                <a href="#cv" class="hover:text-white transition-colors">Resume</a>
+                <a href="#about" class="hover:text-white transition-colors">About</a>
+                <a href="#skills" class="hover:text-white transition-colors">Skills</a>
+                <a href="#certifications" class="hover:text-white transition-colors">Certifications</a>
                 <a href="#projects" class="hover:text-white transition-colors">Projects</a>
+                <a href="#cv" class="hover:text-white transition-colors">Resume</a>
                 <a href="#contact" class="px-4 py-2 rounded-lg bg-brand-600 text-white font-medium hover:bg-brand-500 transition-all shadow-lg shadow-brand-600/20">Contact Me</a>
             </nav>
         </div>
@@ -83,38 +84,42 @@
 
     <main class="pt-28">
 
-        <!-- 1️⃣ قسم التعريف والتطوير المهني (Hero Section) -->
-        <section id="about" class="max-w-7xl mx-auto px-6 py-16 md:py-24">
+        <!-- 1️⃣ قسم التعريف الرئيسي (Hero Section) -->
+        <section id="about" class="max-w-7xl mx-auto px-6 py-12 md:py-20">
             <div class="grid md:grid-cols-12 gap-12 items-center">
                 
                 <div class="md:col-span-8 space-y-6">
                     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-500 text-xs font-mono font-medium">
                         <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
-                        AVAILABLE FOR IT & SECURITY ROLES
+                        OPEN TO: NETWORK ENGINEER · SOC ANALYST · SYSTEM/NETWORK ADMINISTRATOR
                     </div>
 
                     <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight">
-                        Building Secure Networks & Enterprise IT Solutions.
+                        Network & Security Engineer
                     </h1>
 
-                    <p class="text-slate-400 text-lg leading-relaxed max-w-2xl">
-                        Information Technology & Computing graduate specializing in network infrastructure design, enterprise firewall configuration, IPsec VPN tunneling, and proactive security monitoring.
+                    <p class="text-slate-300 text-lg leading-relaxed max-w-2xl font-medium">
+                        IT & Computing Graduate specializing in Enterprise Networking, Firewalls, VPNs & Security Monitoring.
                     </p>
 
-                    <!-- المعرف الرقمي المطور -->
+                    <!-- About Me 3-4 lines -->
+                    <div class="p-4 bg-slate-900/60 border-l-4 border-brand-500 rounded-r-xl text-slate-400 text-sm leading-relaxed max-w-2xl backdrop-blur-sm">
+                        I am an Information Technology & Computing graduate with a strong passion for designing, securing, and troubleshooting enterprise networks. With hands-on experience in firewall administration, IPsec VPN tunneling, and network simulations, I aim to deliver robust IT infrastructure solutions. I am actively seeking entry-level opportunities in Network Engineering, SOC Operations, or Systems Administration.
+                    </div>
+
                     <div class="flex items-center gap-3 pt-2">
                         <span class="text-xs font-mono text-slate-500 uppercase tracking-wider">Verification ID:</span>
-                        <code class="px-3 py-1 bg-slate-900 border border-slate-800 rounded font-mono text-xs text-slate-300">
+                        <code class="px-3 py-1 bg-slate-900 border border-slate-800 rounded font-mono text-xs text-brand-400">
                             0x01 DIZCJDXKROI_HAMZA_SEC_2026
                         </code>
                     </div>
 
-                    <div class="flex flex-wrap gap-4 pt-4">
-                        <a href="#cv" class="px-6 py-3.5 rounded-lg bg-white text-slate-950 font-semibold hover:bg-slate-200 transition-all shadow-lg">
-                            Download Curriculum Vitae
+                    <div class="flex flex-wrap gap-4 pt-2">
+                        <a href="#projects" class="px-6 py-3.5 rounded-lg bg-brand-600 text-white font-semibold hover:bg-brand-500 transition-all shadow-lg shadow-brand-600/25">
+                            Explore Case Studies
                         </a>
-                        <a href="#projects" class="px-6 py-3.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 font-semibold hover:bg-slate-800 hover:text-white transition-all">
-                            View Case Studies
+                        <a href="#cv" class="px-6 py-3.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 font-semibold hover:bg-slate-800 hover:text-white transition-all">
+                            View Curriculum Vitae
                         </a>
                     </div>
                 </div>
@@ -123,7 +128,7 @@
                 <div class="md:col-span-4 bg-slate-900/50 border border-slate-800 rounded-2xl p-6 backdrop-blur-xl relative glow-effect">
                     <h3 class="text-white font-semibold text-lg mb-4 flex items-center gap-2">
                         <svg class="w-5 h-5 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                        Professional Profile
+                        Professional Overview
                     </h3>
                     <ul class="space-y-4 text-sm text-slate-400">
                         <li class="flex justify-between border-b border-slate-800 pb-3">
@@ -131,16 +136,16 @@
                             <span class="text-slate-200 font-medium">B.Sc. IT & Computing</span>
                         </li>
                         <li class="flex justify-between border-b border-slate-800 pb-3">
-                            <span>Academic Standing</span>
-                            <span class="text-brand-500 font-semibold">Very Good</span>
+                            <span>Academic GPA</span>
+                            <span class="text-brand-400 font-semibold">Very Good (2.94 / 4)</span>
                         </li>
                         <li class="flex justify-between border-b border-slate-800 pb-3">
-                            <span>Primary Focus</span>
-                            <span class="text-slate-200 font-medium">Networking & Security</span>
+                            <span>University</span>
+                            <span class="text-slate-200 font-medium">Arab Open University</span>
                         </li>
                         <li class="flex justify-between">
                             <span>Target Roles</span>
-                            <span class="text-slate-200 font-medium">IT Support / SOC / NetAdmin</span>
+                            <span class="text-slate-200 font-medium">NetEng / SOC / SysAdmin</span>
                         </li>
                     </ul>
                 </div>
@@ -148,18 +153,253 @@
             </div>
         </section>
 
-        <!-- 2️⃣ قسم السيرة الذاتية (Resume / CV Section) -->
+        <!-- 2️⃣ قسم المهارات التقنية (Skills Section) -->
+        <section id="skills" class="max-w-7xl mx-auto px-6 py-16 border-t border-slate-900">
+            <div class="mb-10">
+                <h2 class="text-3xl font-bold text-white tracking-tight">Technical Skills</h2>
+                <p class="text-slate-400 text-sm mt-1">Structured overview of core networking protocols, security mechanisms, and software tools.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Networking -->
+                <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6">
+                    <div class="flex items-center gap-3 mb-4 text-brand-500">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                        <h3 class="text-lg font-bold text-white">Networking</h3>
+                    </div>
+                    <ul class="space-y-2 font-mono text-xs text-slate-300">
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• TCP/IP Architecture</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• VLANs & Trunking (802.1Q)</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• Routing & Switching</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• DNS / DHCP Configuration</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• NAT & Subnetting</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• IPsec VPN Tunnels</li>
+                    </ul>
+                </div>
+
+                <!-- Security -->
+                <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6">
+                    <div class="flex items-center gap-3 mb-4 text-brand-500">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                        <h3 class="text-lg font-bold text-white">Security</h3>
+                    </div>
+                    <ul class="space-y-2 font-mono text-xs text-slate-300">
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• OPNsense NGFW Administration</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• Suricata IDS/IPS Rules</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• Firewall Rule Policies</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• Network Reconnaissance (Nmap)</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• Security Auditing via Kali Linux</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• DNS Filtering & Threat Blocking</li>
+                    </ul>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6">
+                    <div class="flex items-center gap-3 mb-4 text-brand-500">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path></svg>
+                        <h3 class="text-lg font-bold text-white">Tools & Software</h3>
+                    </div>
+                    <ul class="space-y-2 font-mono text-xs text-slate-300">
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• Wireshark Traffic Analyzer</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• Cisco Packet Tracer</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• GNS3 Simulator</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• OMNeT++ Simulator</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• Linux Administration (Debian/Kali)</li>
+                        <li class="bg-slate-950 px-3 py-2 rounded border border-slate-800/80">• VirtualBox / VMware ESXi</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3️⃣ قسم الشهادات والأوراق الاعتمادية (Certifications Section) -->
+        <section id="certifications" class="max-w-7xl mx-auto px-6 py-16 border-t border-slate-900">
+            <div class="mb-10">
+                <h2 class="text-3xl font-bold text-white tracking-tight">Academic & Professional Certifications</h2>
+                <p class="text-slate-400 text-sm mt-1">Verified qualifications from Cisco Networking Academy and Arab Open University.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Academic Degree Card -->
+                <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <span class="text-xs font-mono px-2.5 py-1 bg-brand-500/10 text-brand-400 border border-brand-500/20 rounded">BACHELOR DEGREE</span>
+                            <span class="text-xs text-slate-500 font-mono">FEB 2026</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-1">B.Sc. Information Technology and Computing</h3>
+                        <p class="text-xs text-slate-400 mb-4">Arab Open University (Faculty of Computer Studies) | GPA: 2.94 / 4 (Very Good)</p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                        <a href="https://sisksaapp.aou.edu.kw/AOUSIS/Public/QRCodeReader.aspx?CODE=99042CE1920D496AD92E38CA7CA63E9452B6D8AF631129C96BA25F1B55841B3257A89B860B872E9268C2D651DBEF06D46D47B6F21D9D00ED34BD733DEFA17E02" target="_blank" class="text-xs font-semibold text-brand-500 hover:text-brand-400 inline-flex items-center gap-1">
+                            Verify Degree via Official University Portal &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cisco CCNA 3: Enterprise Networking -->
+                <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <span class="text-xs font-mono px-2.5 py-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 rounded">CISCO ACADEMY</span>
+                            <span class="text-xs text-slate-500 font-mono">JAN 2025</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-1">CCNAv7: Enterprise Networking, Security, and Automation</h3>
+                        <p class="text-xs text-slate-400 mb-4">Cisco Networking Academy Certification</p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                        <a href="reports/CCNA-_Enterprise_Networking-_Security-_and_Automation_certificate_20464317ksa-aou-edu-sa_fa236579-93a2-45b7-90d4-eef0a7fca595.pdf" target="_blank" class="text-xs font-semibold text-brand-500 hover:text-brand-400 inline-flex items-center gap-1">
+                            View Certificate Document &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cisco CCNA 2: Switching, Routing -->
+                <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <span class="text-xs font-mono px-2.5 py-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 rounded">CISCO ACADEMY</span>
+                            <span class="text-xs text-slate-500 font-mono">NOV 2024</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-1">CCNAv7: Switching, Routing, and Wireless Essentials</h3>
+                        <p class="text-xs text-slate-400 mb-4">Cisco Networking Academy Certification</p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                        <a href="reports/CCNA-_Switching-_Routing-_and_Wireless_Essentials_certificate_20464317ksa-aou-edu-sa_7dac368b-d849-4fce-b112-06b9dcac431b.pdf" target="_blank" class="text-xs font-semibold text-brand-500 hover:text-brand-400 inline-flex items-center gap-1">
+                            View Certificate Document &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cisco CCNA 1: Intro to Networks -->
+                <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <span class="text-xs font-mono px-2.5 py-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 rounded">CISCO ACADEMY</span>
+                            <span class="text-xs text-slate-500 font-mono">MAY 2024</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-1">CCNAv7: Introduction to Networks</h3>
+                        <p class="text-xs text-slate-400 mb-4">Cisco Networking Academy Certification</p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                        <a href="reports/CCNA-_Introduction_to_Networks_certificate_20464317ksa-aou-edu-sa_62aa9d60-ead6-4575-afdc-9ea3bd4f5d03.pdf" target="_blank" class="text-xs font-semibold text-brand-500 hover:text-brand-400 inline-flex items-center gap-1">
+                            View Certificate Document &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4️⃣ قسم المشاريع كـ Case Studies -->
+        <section id="projects" class="max-w-7xl mx-auto px-6 py-16 border-t border-slate-900">
+            <div class="mb-10">
+                <h2 class="text-3xl font-bold text-white tracking-tight">Engineering Case Studies</h2>
+                <p class="text-slate-400 text-sm mt-1">Detailed problem-to-result walkthroughs of active implementations and research simulations.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Case Study 1: OPNsense -->
+                <div class="bg-slate-900/40 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-mono px-2.5 py-1 rounded bg-brand-500/10 text-brand-500 border border-brand-500/20">GRADUATION CASE STUDY</span>
+                            <span class="text-xs text-slate-500 font-mono">ENTERPRISE LAB</span>
+                        </div>
+
+                        <h3 class="text-xl font-bold text-white mb-4">OPNsense NGFW & Site-to-Site IPsec VPN Deployment</h3>
+
+                        <!-- Structure: Problem -> Architecture -> Implementation -> Result -->
+                        <div class="space-y-3 text-xs text-slate-300 mb-6">
+                            <div class="p-2.5 bg-slate-950 border border-slate-800/80 rounded">
+                                <strong class="text-brand-400 block mb-0.5">1. Problem Statement:</strong>
+                                Securing multi-site enterprise communication against eavesdropping and unauthorized network intrusions without compromising performance.
+                            </div>
+                            <div class="p-2.5 bg-slate-950 border border-slate-800/80 rounded">
+                                <strong class="text-brand-400 block mb-0.5">2. Network Architecture:</strong>
+                                Dual-site firewall topology backed by OPNsense NGFW, integrating IPSec VPN gateways and an inline Suricata IDS/IPS engine.
+                            </div>
+                            <div class="p-2.5 bg-slate-950 border border-slate-800/80 rounded">
+                                <strong class="text-brand-400 block mb-0.5">3. Implementation Details:</strong>
+                                Configured IKEv2 IPsec tunnels with AES-256 encryption, DNS blocklists, granular firewall rulesets, and active signature inspection.
+                            </div>
+                            <div class="p-2.5 bg-slate-950 border border-slate-800/80 rounded">
+                                <strong class="text-brand-400 block mb-0.5">4. Verification & Result:</strong>
+                                Validated tunnel integrity via Kali Linux & Nmap scans; successfully detected and automatically blocked simulated threat traffic in real time.
+                            </div>
+                        </div>
+
+                        <div class="w-full h-64 border border-slate-800 rounded-xl overflow-hidden bg-slate-950 mb-6">
+                            <iframe 
+                                src="reports/OPNsense_VPN_Report - Hamza Ahmad Alshaikh.pdf#toolbar=0" 
+                                class="w-full h-full" 
+                                frameborder="0">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <a href="reports/OPNsense_VPN_Report - Hamza Ahmad Alshaikh.pdf" target="_blank" class="text-sm font-semibold text-brand-500 hover:text-brand-400 inline-flex items-center gap-2">
+                        View Full Project Report (PDF) &rarr;
+                    </a>
+                </div>
+
+                <!-- Case Study 2: 4G vs 5G -->
+                <div class="bg-slate-900/40 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-mono px-2.5 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">RESEARCH STUDY</span>
+                            <span class="text-xs text-slate-500 font-mono">SIMULATION</span>
+                        </div>
+
+                        <h3 class="text-xl font-bold text-white mb-4">4G vs 5G Network Performance Modeling</h3>
+
+                        <div class="space-y-3 text-xs text-slate-300 mb-6">
+                            <div class="p-2.5 bg-slate-950 border border-slate-800/80 rounded">
+                                <strong class="text-purple-400 block mb-0.5">1. Research Objective:</strong>
+                                Evaluating structural bottlenecks and latency scaling of legacy 4G LTE networks versus 5G New Radio (NR) under ultra-dense user scenarios.
+                            </div>
+                            <div class="p-2.5 bg-slate-950 border border-slate-800/80 rounded">
+                                <strong class="text-purple-400 block mb-0.5">2. Simulation Environment:</strong>
+                                Discrete-event network simulation built inside OMNeT++ with Simu5G framework to mirror real-world telecom traffic.
+                            </div>
+                            <div class="p-2.5 bg-slate-950 border border-slate-800/80 rounded">
+                                <strong class="text-purple-400 block mb-0.5">3. Performance Benchmarking:</strong>
+                                Measured end-to-end latency, packet loss, and throughput under escalating User Equipment (UE) load profiles.
+                            </div>
+                            <div class="p-2.5 bg-slate-950 border border-slate-800/80 rounded">
+                                <strong class="text-purple-400 block mb-0.5">4. Outcome Metrics:</strong>
+                                Demonstrated 5G NR latency drop from 0.9ms to 0.006ms and throughput scaling from 694.8 Mbps to 1.3 Gbps.
+                            </div>
+                        </div>
+
+                        <div class="w-full h-64 border border-slate-800 rounded-xl overflow-hidden bg-slate-950 mb-6">
+                            <iframe 
+                                src="reports/4G_vs_5G_Performance_Analysis_Hamza_Alshaikh.pdf#toolbar=0" 
+                                class="w-full h-full" 
+                                frameborder="0">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <a href="reports/4G_vs_5G_Performance_Analysis_Hamza_Alshaikh.pdf" target="_blank" class="text-sm font-semibold text-brand-500 hover:text-brand-400 inline-flex items-center gap-2">
+                        View Full Research Paper (PDF) &rarr;
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 5️⃣ قسم السيرة الذاتية (Resume Section) -->
         <section id="cv" class="max-w-7xl mx-auto px-6 py-16 border-t border-slate-900">
-            <div class="mb-12">
+            <div class="mb-8">
                 <h2 class="text-3xl font-bold text-white tracking-tight">Curriculum Vitae</h2>
-                <p class="text-slate-400 text-sm mt-1">Official documentation of academic background, skills, and practical accomplishments.</p>
+                <p class="text-slate-400 text-sm mt-1">Direct preview of verified professional CV document.</p>
             </div>
 
             <div class="bg-slate-900/40 border border-slate-800 rounded-2xl p-6 md:p-8 backdrop-blur-xl">
                 <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
                     <div>
-                        <h3 class="text-xl font-bold text-white">Hamza Al-Shaikh - Professional CV</h3>
-                        <p class="text-xs text-slate-500 font-mono mt-1">FORMAT: PDF | LAST UPDATED: 2026</p>
+                        <h3 class="text-xl font-bold text-white">Hamza Al-Shaikh - Professional Resume</h3>
+                        <p class="text-xs text-slate-500 font-mono mt-1">UPDATED FOR 2026 RECRUITMENT</p>
                     </div>
                     <div class="flex gap-3">
                         <a href="reports/Hamza_Alshaikh_CV.pdf" target="_blank" class="px-4 py-2 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium hover:bg-slate-700 transition">
@@ -181,97 +421,27 @@
             </div>
         </section>
 
-        <!-- 3️⃣ قسم المشاريع والأعمال التطبيقية (Projects & Case Studies) -->
-        <section id="projects" class="max-w-7xl mx-auto px-6 py-16 border-t border-slate-900">
-            <div class="mb-12">
-                <h2 class="text-3xl font-bold text-white tracking-tight">Featured Engineering Projects</h2>
-                <p class="text-slate-400 text-sm mt-1">Comprehensive technical reports and network simulation studies.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-8">
-                
-                <!-- مشروع 1 -->
-                <div class="bg-slate-900/40 border border-slate-800 hover:border-slate-700 transition-all duration-300 rounded-2xl p-6 flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-center mb-4">
-                            <span class="text-xs font-mono px-2.5 py-1 rounded bg-brand-500/10 text-brand-500 border border-brand-500/20">GRADUATION PROJECT</span>
-                            <span class="text-xs text-slate-500 font-mono">STATUS: COMPLETED</span>
-                        </div>
-
-                        <h3 class="text-xl font-bold text-white mb-2">OPNsense NGFW & IPsec VPN Deployment</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed mb-6">
-                            Enterprise network security lab implementing OPNsense Next-Generation Firewall, Site-to-Site IPsec VPN, Suricata IDS/IPS active threat mitigation, DNS filtering, and penetration testing verification via Kali Linux & Nmap.
-                        </p>
-
-                        <div class="w-full h-72 border border-slate-800 rounded-xl overflow-hidden bg-slate-950 mb-6">
-                            <iframe 
-                                src="reports/OPNsense_VPN_Report - Hamza Ahmad Alshaikh.pdf#toolbar=0" 
-                                class="w-full h-full" 
-                                frameborder="0">
-                            </iframe>
-                        </div>
-
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="text-xs font-mono px-2 py-1 bg-slate-950 border border-slate-800 rounded text-slate-400">OPNsense</span>
-                            <span class="text-xs font-mono px-2 py-1 bg-slate-950 border border-slate-800 rounded text-slate-400">IPsec VPN</span>
-                            <span class="text-xs font-mono px-2 py-1 bg-slate-950 border border-slate-800 rounded text-slate-400">Suricata IDS/IPS</span>
-                            <span class="text-xs font-mono px-2 py-1 bg-slate-950 border border-slate-800 rounded text-slate-400">Kali Linux</span>
-                        </div>
-                    </div>
-
-                    <a href="reports/OPNsense_VPN_Report - Hamza Ahmad Alshaikh.pdf" target="_blank" class="text-sm font-semibold text-brand-500 hover:text-brand-400 inline-flex items-center gap-2">
-                        View Technical Report &rarr;
-                    </a>
-                </div>
-
-                <!-- مشروع 2 -->
-                <div class="bg-slate-900/40 border border-slate-800 hover:border-slate-700 transition-all duration-300 rounded-2xl p-6 flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-center mb-4">
-                            <span class="text-xs font-mono px-2.5 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">TELECOM & SIMULATION</span>
-                            <span class="text-xs text-slate-500 font-mono">STATUS: COMPLETED</span>
-                        </div>
-
-                        <h3 class="text-xl font-bold text-white mb-2">4G vs 5G Architecture & Performance Analysis</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed mb-6">
-                            Comparative evaluation of 4G (LTE) and 5G (NR) networks using OMNeT++ simulator. Modeled latency reduction (0.9ms to 0.006ms) and throughput scaling (694 Mbps to 1.3 Gbps) under high-density user environments.
-                        </p>
-
-                        <div class="w-full h-72 border border-slate-800 rounded-xl overflow-hidden bg-slate-950 mb-6">
-                            <iframe 
-                                src="reports/4G_vs_5G_Performance_Analysis_Hamza_Alshaikh.pdf#toolbar=0" 
-                                class="w-full h-full" 
-                                frameborder="0">
-                            </iframe>
-                        </div>
-
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="text-xs font-mono px-2 py-1 bg-slate-950 border border-slate-800 rounded text-slate-400">OMNeT++</span>
-                            <span class="text-xs font-mono px-2 py-1 bg-slate-950 border border-slate-800 rounded text-slate-400">5G NR</span>
-                            <span class="text-xs font-mono px-2 py-1 bg-slate-950 border border-slate-800 rounded text-slate-400">LTE</span>
-                            <span class="text-xs font-mono px-2 py-1 bg-slate-950 border border-slate-800 rounded text-slate-400">Traffic Modeling</span>
-                        </div>
-                    </div>
-
-                    <a href="reports/4G_vs_5G_Performance_Analysis_Hamza_Alshaikh.pdf" target="_blank" class="text-sm font-semibold text-brand-500 hover:text-brand-400 inline-flex items-center gap-2">
-                        View Research Paper &rarr;
-                    </a>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- 4️⃣ قسم التواصل (Contact Section) -->
+        <!-- 6️⃣ قسم التواصل الفعلي (Contact Section) -->
         <section id="contact" class="max-w-7xl mx-auto px-6 py-20 border-t border-slate-900">
             <div class="bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-8 md:p-12 text-center max-w-3xl mx-auto relative overflow-hidden">
-                <h2 class="text-3xl font-bold text-white tracking-tight mb-4">Let's Connect</h2>
+                <h2 class="text-3xl font-bold text-white tracking-tight mb-3">Initiate Contact</h2>
                 <p class="text-slate-400 text-sm max-w-md mx-auto mb-8">
-                    Open to opportunities in IT Administration, Network Engineering, and Information Security.
+                    Available for technical interviews and professional discussions in IT Operations, Network Engineering, and Security Operations.
                 </p>
-                <a href="mailto:your.email@example.com" class="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-brand-600 text-white font-semibold hover:bg-brand-500 transition shadow-xl shadow-brand-600/25">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 002-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                    Send Direct Email
-                </a>
+
+                <div class="flex flex-wrap justify-center items-center gap-4">
+                    <!-- Email Direct -->
+                    <a href="mailto:maeeh156@gmail.com" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-brand-600 text-white font-semibold hover:bg-brand-500 transition shadow-lg shadow-brand-600/25 text-sm">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 002-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        maeeh156@gmail.com
+                    </a>
+
+                    <!-- LinkedIn Direct -->
+                    <a href="https://www.linkedin.com/in/hamza-ahmad-al-shaikh" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-800 border border-slate-700 text-white font-semibold hover:bg-slate-700 transition text-sm">
+                        <svg class="w-5 h-5 fill-current text-brand-400" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                        LinkedIn Profile
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -279,7 +449,7 @@
 
     <!-- Footer -->
     <footer class="border-t border-slate-900 py-8 text-center text-xs text-slate-500 font-mono">
-        &copy; 2026 Hamza Al-Shaikh. All rights reserved. Built for Github Pages.
+        &copy; 2026 Hamza Al-Shaikh. All rights reserved. Hosted on GitHub Pages.
     </footer>
 
 </body>
